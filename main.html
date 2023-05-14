@@ -10,6 +10,53 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form action="" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="#name" required placeholder="Name">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="#email" required placeholder="Email">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="#gender_m" name="gender" required>Male
+            <input type="radio" id="#gender_f" name="gender" required>Female
+        </div>
+        <div>
+            <label for="cars" >Car Brands</label>
+            <select name="cars" id="#cars" >
+                <option value="" disabled selected>--Please choose an option--</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedez">Mercedez</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="#age" required placeholder="Age">
+        </div>
+        <div>
+            <label for="dob">DOB</label>
+            <input type="date" id="#date" required>
+        </div>
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="#tel" placeholder="xxx-xxx-xxxx">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="#password" required placeholder="Password">
+        </div>
+        <div>
+            <label for="tnc">I agree to the TOS</label>
+            <input type="checkbox" id="#tos" required>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
 
 </body>
 
